@@ -1,4 +1,4 @@
-FROM php:8-apache
+FROM php:8.5.3RC1-apache
 
 RUN /usr/sbin/useradd -u 1000 user
 
